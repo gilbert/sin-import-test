@@ -1,0 +1,19 @@
+{
+  "name": "sin-import-test",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "sin build",
+    "generate": "sin generate",
+    "start": "sin start",
+    "dev": "sin dev --debug --devtools --bundle-node-modules"
+  },
+  "dependencies": {
+    "ethers": "^6.13.1",
+    "octokit": "^4.0.2",
+    "sin": "github:porsager/sin",
+    "siwe": "^2.3.2",
+    "tailwind-merge": "^2.4.0"
+  }
+}
